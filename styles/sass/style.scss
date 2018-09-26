@@ -1,0 +1,24 @@
+$space: 30px;
+
+@import 'vc-fix';
+@import 'header';
+@import 'news';
+
+@media (min-width: 1260px){
+  .container, .container-fluid{
+    max-width: 1230px;
+  }
+}
+
+.listing{
+  padding: $space 0px;
+  background-color: #c4c4c4;
+}
+
+@media (max-width: 767px) {
+  .listing{
+    div[class*="col-"]{
+      margin-bottom: $space;
+    }
+  }
+}

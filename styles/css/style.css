@@ -1,0 +1,27 @@
+.wpb-js-composer .vc_row {
+  max-width: 1230px;
+  margin: 0 auto; }
+  .wpb-js-composer .vc_row.full {
+    max-width: none;
+    margin: 0px;
+    padding: 0px; }
+    .wpb-js-composer .vc_row.full .vc_column_container > .vc_column-inner {
+      padding: 0px; }
+  .wpb-js-composer .vc_row .vc_column_container > .vc_column-inner {
+    padding: 0px 15px; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+@media (min-width: 1260px) {
+  .container, .container-fluid {
+    max-width: 1230px; } }
+.listing {
+  padding: 30px 0px;
+  background-color: #c4c4c4; }
+
+@media (max-width: 767px) {
+  .listing div[class*="col-"] {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=los.css.map */

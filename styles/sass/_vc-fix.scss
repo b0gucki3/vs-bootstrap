@@ -1,0 +1,23 @@
+.wpb-js-composer{
+  .vc_row{
+    max-width: 1230px;
+    margin: 0 auto;
+
+    &.full{
+      max-width: none;
+      margin: 0px;
+      padding: 0px;
+
+      .vc_column_container{
+        > .vc_column-inner{
+          padding: 0px;
+        }
+      }
+    }
+    .vc_column_container{
+      > .vc_column-inner{
+        padding: 0px 15px;
+      }
+    }
+  }
+}
